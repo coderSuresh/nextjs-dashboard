@@ -156,7 +156,7 @@ export default function EditInvoiceForm({
           </div>
         ) : null}
 
-        {state. ? (
+        {state.message ? (
           <div
             id="message"
             aria-live="polite"
